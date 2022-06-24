@@ -2,11 +2,11 @@
 var generateBtn = document.querySelector("#generate");
 
 
-var allLowercase = "qwertyuiopasdfghjklzxcvbnm"
-var allUppercase = "QWERTYUIOPASDFGHJKLZXCVBNM"
-var allNumbers = "0123456789"
-var allSpecial = "!\u0022#$%&\u0027()*+,-./:;<=>?@[\]^_`{|}~"
-var newPassword = ""
+var allLowercase = "qwertyuiopasdfghjklzxcvbnm";
+var allUppercase = "QWERTYUIOPASDFGHJKLZXCVBNM";
+var allNumbers = "0123456789";
+var allSpecial = "!\u0022#$%&\u0027()*+,-./:;<=>?@[\]^_`{|}~";
+var newPassword = "";
 
 function generatePassword() {
   // Generates confirm and prompt alerts asking the user for password criteria
