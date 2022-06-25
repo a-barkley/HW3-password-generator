@@ -15,19 +15,19 @@ function generatePassword() {
   var confirmLowercase = confirm("Would you like your password to include lowercase letters?");
   // Adds the corresponding character type to the variable allCharacters if confirmed
   if (confirmLowercase) {
-    allCharacters = allCharacters + allLowercase;
+    allCharacters += allLowercase;
   }
   var confirmUppercase = confirm("Would you like your password to include uppercase letters?");
   if (confirmUppercase) {
-    allCharacters = allCharacters + allUppercase;
+    allCharacters += allUppercase;
   }
   var confirmNumbers = confirm("Would you like your password to include numbers?");
   if (confirmNumbers) {
-    allCharacters = allCharacters + allNumbers;
+    allCharacters += allNumbers;
   }
   var confirmSpecial = confirm("Would you like your password to include special characters?");
   if (confirmSpecial) {
-    allCharacters = allCharacters + allSpecial;
+    allCharacters += allSpecial;
   }
   var passLength = prompt("Choose a password length between 8 and 128");
   // Checks if the user chose a valid number and throws up an alert if not
